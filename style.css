@@ -1,0 +1,103 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+main{
+    margin: auto;
+    width: 95%;
+    max-width: 1440px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: end;
+    width: 50%;
+  
+}
+.hero-B img{
+    max-width: 80%;
+
+}
+.menu li{
+   list-style-type: none;
+  padding: 0 20px;
+}
+.logo{
+    width: 50%;
+}
+.illustration-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-A{
+    width: 50%;
+}
+.hero-B {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.illustration-2{
+    display: flex;
+    justify-content: center;
+    background-color: #f6f6fe;
+    background-image: url("images/bg-curve-desktop.svg");
+}
+.illustration-2 .text{
+    width: 50%;
+}
+.illustration-2 .image{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.image img{
+    width: 80%;
+}
+.Avatar{
+    display: flex;
+    justify-content: start;
+    width: 85%;
+   
+    height: 30%;
+    margin: 0 auto;
+}
+.Avatar-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quote-box{
+    height: 70%;
+    padding: 20px;
+}
+.card{
+  background-color: white;
+  width: 220px;
+ height:  180px;
+line-height: 1em;
+ border-radius: 3px;
+
+
+}
+.Avatar-box p{
+font-size: 10px;
+}
+.Avatar-text p{
+font-size: 8px;
+}
+ img.images{
+width: 40px;
+height: 40px;
+border-radius: 35px;
+margin-bottom: 40px;
+ 
+}
