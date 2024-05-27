@@ -4,11 +4,14 @@
     box-sizing: border-box;
  
 }
-main{
+
+.control{
     margin: auto;
     width: 95%;
     max-width: 1440px;
 }
+
+
 .nav{
     display: flex;
     justify-content: space-between;
@@ -36,8 +39,43 @@ main{
     justify-content: space-between;
     align-items: center;
 }
+.illustration-1 h3{
+    color: hsl(243, 87%, 12%);
+    font-size: 28px;
+    line-height: 1.5em;
+    font-weight: 700;
+    font-family: open Sans;
+    margin-bottom: 10px;
+    width: 75%;
+}
+.illustration-1 p{
+    color: hsl(238, 22%, 44%);
+   margin-bottom: 10px;
+width: 75%;
+}
 .hero-A{
     width: 50%;
+}
+button{
+width: 30%;
+padding: 5px;
+background-color: hsl(224, 93%, 58%);
+color: white;
+border: none;
+}
+input{
+    width: 55%;
+    padding: 5px;
+}
+input::placeholder{
+    color: hsl(0, 0%, 75%);
+    padding: 10px;
+}
+.btn{
+    display: flex;
+    gap: 20px;
+  width: 75%;
+    
 }
 .hero-B {
     width: 50%;
@@ -45,15 +83,28 @@ main{
     justify-content: center;
     align-items: center;
 }
+.B{
+    background: url("images/bg-curve-desktop.svg");
+    background-color: hsl(240, 75%, 98%);
+  
+}
 .illustration-2{
+   
     display: flex;
     justify-content: center;
-    background-color: #f6f6fe;
-    background-image: url("images/bg-curve-desktop.svg");
+   padding-top: 20px;
+   
+    
+}
+
+.text a {
+    margin-bottom: 15px;
 }
 .illustration-2 .text{
     width: 50%;
+    padding: 10px;
 }
+
 .illustration-2 .image{
     width: 50%;
     display: flex;
@@ -68,7 +119,7 @@ main{
     width: 85%;
    
     height: 30%;
-    margin: 0 auto;
+    margin: 15px auto;
 }
 .Avatar-text{
     display: flex;
@@ -79,14 +130,22 @@ main{
     height: 70%;
     padding: 20px;
 }
+.quote-box p{
+    margin-bottom: 15px;
+}
 .card{
   background-color: white;
   width: 220px;
  height:  180px;
-line-height: 1em;
  border-radius: 3px;
-
-
+ padding: 10px;
+ margin: 15px 0;
+ box-shadow: 2px 4px 8px 1px rgba(2, 2, 0, 0.5) ;
+}
+.card p{
+  font-size: 10px;
+  line-height: 1.5em;
+ 
 }
 .Avatar-box p{
 font-size: 10px;
@@ -97,7 +156,114 @@ font-size: 8px;
  img.images{
 width: 40px;
 height: 40px;
-border-radius: 35px;
-margin-bottom: 40px;
+
  
+}
+.sign-up{
+    display: flex;
+    justify-content: space-between;
+    gap:  20px;
+    color: white;
+  padding: 30px 0;
+ 
+}
+.C{
+    background-color: hsl(238, 22%, 44%);
+}
+.sign-up h3,  .sign-up p{
+    width: 70%;
+    margin: 20px 0;
+
+}
+.sign-up-btn{
+display: flex;
+flex-direction: column;
+gap: 20px;
+width: 50%;
+}
+.sign-up-btn button{
+    width: 30%;
+    color: white;
+}
+.sign-up-btn input{
+    width: 80%;
+}
+footer{
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    padding: 20px 0;
+   
+}
+.phone, .email{
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+}
+#logo{
+  color: white;
+}
+.footer{
+    display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        margin: 20px 0;
+}
+.footer p{
+   padding: 10px 0;
+}
+
+
+
+
+
+
+
+@media  screen and (max-width: 600px){
+    .nav {
+            display: flex;
+            justify-content: center;
+            
+        }
+    .nav img{
+        width: 50%;
+        height: 50%;
+    }
+        .menu li {
+        padding: 0 10px;
+        }
+    .illustration-1 {
+            display: flex;
+            flex-direction: column;
+
+        }
+     .btn {
+             display: flex;
+             flex-direction: column;
+             gap: 20px;
+             /* width: 75%; */
+        
+                }
+        .hero-B {
+            /* width: 50%; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .illustration-2 {
+        
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         padding-top: 20px;
+        
+        
+     }
+         .illustration-2 .image {
+             /* width: 50%; */
+             display: flex;
+             flex-direction: column;
+            
+         }
+
 }

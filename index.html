@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="(https://fonts.google.com/specimen/Open+Sans)">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 <link rel="stylesheet" href="style.css">
@@ -17,8 +18,8 @@
 </head>
 <body>
 
-  <main>
-    <nav class="nav">
+  <div class="container">
+    <nav class="nav control">
       <div class="logo">
         <img src="./images/logo.svg" alt="">
       </div>
@@ -28,22 +29,28 @@
         <li> Sign In</li>     
         </ul>
     </nav>
-    <section class="illustration-1">
-      <div class="hero-A">
+    <section class="A">
+      <div class="illustration-1 control">
+        <div class="hero-A">
         <h3> All your files in one secure location, accessible anywhere.</h3>
         <p> Fylo stores your most important files in one secure location. 
   Access them wherever you need, share and collaborate with friends, 
   family, and co-workers.</p>
+  <div class="btn">
+    <input type="text" name="" id="" placeholder="Enter your email">
         <button>Get Started</button>
+  </div>
 
-      </div>
+      </div >
       <div class="hero-B">
         <img src="./images/illustration-1.svg" alt="">
 
       </div>
+      </div>
     </section>
-    <section class="illustration-2">
-      <div class="text">
+    <section  class="B">
+  <div class="illustration-2 control">
+    <div class="text">
         <h3 >
             Stay productive, wherever you are
 
@@ -77,9 +84,12 @@
       <div class="image">
         <img src="./images/illustration-2.svg" alt="">
       </div>
+  </div>
+      
     </section>
-    <section>
-      <div>
+    <section class="C">
+      <div class="sign-up control">
+        <div  class="sign-up-text">
         <h3>
           Get early access today
         </h3>
@@ -89,20 +99,51 @@
 
         </p>
         </div>
-        <div>
+        <div class="sign-up-btn">
           <input type="text" placeholder="email.example.com">
           <button>Get Started For Free</button>
         </div>
+      </div>
     </section>
     <footer>
-      <img src="./images/logo.svg" alt="">
-      <div>
-        <div>
-          <img src="./images/icon-phone.svg" alt=""><b>Phone: +1-543-123-4567</b>
+       <div class="control">
+        <img id="logo" src="./images/logo.svg" alt="" >
+      <div class="footer">
+       <div class="contact">
+         <div class="phone">
+            <img src="./images/icon-phone.svg" alt=""><p>Phone: +1-543-123-4567</p>
+          </div>
+      <div class="email">
+        <img src="./images/icon-email.svg" alt="">
+       <p>example@fylo.com</p>
         </div>
+
+       </div>
+        
+    
+        <div class="about-us">
+          <p> About Us</p>
+          <p>Jobs</p>
+          <p>Jobs</p>
+          <p>Press</p>
+          <p>Blog</p>
+        </div>
+        <div>
+          <p>Contact Us</p>
+          <p>Terms</p>
+          <p> Privacy</p>
+        </div>
+        </div>
+  
+        <div>
+
+        </div>
+
+
       </div>
+       </div>
     </footer>
-  </main>
+  </div>
 
 
   
@@ -119,21 +160,18 @@
   
 
   
-  example@fylo.com
+  
 
-  About Us
-  Jobs
-  Press
-  Blog
 
-  Contact Us
-  Terms
-  Privacy
+
+  
+  
+ 
 
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Mercy Godsman</a>.
     </p>
   </footer>
 </body>
