@@ -54,7 +54,7 @@
 width: 75%;
 }
 .hero-A{
-    width: 50%;
+    /* width: 50%; */
 }
 button{
 width: 30%;
@@ -78,22 +78,20 @@ input::placeholder{
     
 }
 .hero-B {
-    width: 50%;
+    /* width: 50%; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.B{
+
+.top-curve{
     background: url("images/bg-curve-desktop.svg");
-    background-color: hsl(240, 75%, 98%);
-  
+    height:  100px;
 }
 .illustration-2{
-   
+    background-color: hsl(240, 75%, 98%);
     display: flex;
-    justify-content: center;
-   padding-top: 20px;
-   
+    justify-content: center;   
     
 }
 
@@ -243,7 +241,11 @@ footer{
              /* width: 75%; */
         
                 }
+                .hero-A{
+                    order: 2;
+                }
         .hero-B {
+            order: 1;
             /* width: 50%; */
             display: flex;
             flex-direction: column;
