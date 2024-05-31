@@ -117,34 +117,35 @@ h3{
     font-weight: 700;
 }
 
-.text a {
+.content a {
  
     text-underline-offset: 0.5em;
     color: hsl(170, 45%, 43%);
    
 }
-.text h3, .text p{
+.content h3, .content p{
     margin-bottom: 15px;
     color: hsl(243, 87%, 12%);
 }
-.illustration-2 .text{
-    width: 50%; 
+.illustration-2 .content{
+
     margin-top: 80px;
+    flex: 1;
    
    
 }
 
-.illustration-2  .image{
-    width: 50%;
-    
-
-}
-.img{
-    width: 80%;
+.img-wrapper{
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.img-wrapper img {
+    max-width: 100%;
+}
+
 .Avatar{
     display: flex;
     justify-content: start;
@@ -272,6 +273,7 @@ footer{
             justify-content: center;
             align-items: center;
             width: 80%;
+            margin: 0 auto;
      
             
         }
