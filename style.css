@@ -242,7 +242,7 @@ footer {
 }
 .icon {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   gap: 20px;
   align-items: center;
 }
@@ -374,7 +374,9 @@ footer {
   .sign-up-btn{
     width: 100%;
   }
-  .content{
-    display: ;
+  .card{
+    margin: 30px auto;
+
   }
+  
 }
